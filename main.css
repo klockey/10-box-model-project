@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto&family=Tilt+Prism&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url("pexels-photo-4417069.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav {
+  height: 2rem;
+  background: clear;
+  text-align: center;
+}
+
+.nav-title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.card {
+  background: clear;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  max-width: 300px;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem 2rem 2rem;
+  margin: 5rem auto;
+  border: 1px solid white;
+}
+
+.paragraph-1 {
+  text-transform: capitalize;
+}
+
+.paragraph-2 {
+  text-transform: uppercase;
+}
+
+.post {
+  margin: 2rem auto;
+  border: 1px solid clear;
+}
+
+.a-link {
+  color: white;
+  text-decoration: underline;
+}
+
+.card-paragraph {
+  background: clear;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  max-width: 700px;
+  min-height: 700px;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem 2rem 2rem;
+  margin: 5rem auto;
+  border: 1px solid white;
+}
