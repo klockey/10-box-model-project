@@ -1,0 +1,30 @@
+.paragraph-1 {
+  text-transform: capitalize;
+}
+
+.paragraph-2 {
+  text-transform: uppercase;
+}
+
+.paragraph-3 {
+  text-transform: uppercase;
+}
+
+.card-paragraph {
+  background: clear;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  max-width: 700px;
+  min-height: 700px;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem 2rem 2rem;
+  margin: 5rem auto;
+  border: 1px solid white;
+}
+
+.post {
+  margin: 2rem auto;
+  border: 1px solid clear;
+}
