@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto&family=Tilt+Prism&display=swap");
-@import "style2.css";
+/* @import "style2.css"; */
 
 * {
   margin: 0;
@@ -9,6 +9,8 @@ body {
   background-image: url("pexels-photo-4417069.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 .nav {
@@ -22,7 +24,8 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   color: #fff;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
 }
 
 .card {
@@ -38,7 +41,72 @@ body {
   border: 1px solid white;
 }
 
+/*
+.imageL {
+  margin-top: 10px;
+  border-radius: 0.5rem;
+  margin-top: 100px; 
+  position: absolute; 
+  top: 25%; 
+  display: flex;
+  display: inline-flex;
+  align-items: center;
+
+.nav-title {
+  margin-bottom: -4px;
+} 
+
+.nav-center {
+  display: inline-block;
+}  
+*/
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* .imageL {
+  
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+} 
+*/
+
 .a-link {
   color: white;
-  text-decoration: underline;
+  /* text-decoration: none; */
 }
+
+figcaption {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  position: fixed;
+  bottom: 2rem;
+}
+/* 
+.grid-container {
+  display: grid;
+  height: 400px;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+} */
