@@ -3,19 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>box model</title>
-
-    <link rel="stylesheet" href="./main.css" />
+    <title>Lockey Blog</title>
+    <link rel="stylesheet" href="./style2.css" />
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: 250px 250px 250px 550px 250px 250px;
+        position: absolute;
+        bottom: 0;
+        align-items: center;
+        justify-content: center;
+      }
+      .cell {
+        resize: horizontal;
+        padding: 2rem;
+        /* background: #dedede; */
+        text-transform: uppercase;
+        /* font-weight: bold; */
+        text-align: center;
+        /* border: 3px solid red; */
+        color: #fff;
+        border-radius: 0.5rem;
+      }
+    </style>
   </head>
   <body>
-    <!-- nav -->
-    <div class="nav">
-      <div class="nav-center">
-        <span class="nav-title">Lockey Blog</span>
-      </div>
-    </div>
-
-    <div class="card-paragraph">
+    <div class="card-paragraph third-paragraph">
       <div class="post">
         <a href="index.html" class="a-link">Back</a>
       </div>
@@ -64,6 +77,32 @@
         officiis molestiae sapiente fugit possimus, debitis commodi error
         consectetur odit voluptatibus enim
       </div>
+      <div>
+        <button type="submit">submit me</button>
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="cell">Keith Lockey</div>
+      <div class="cell">
+        <img
+          style="border-radius: 0.5rem"
+          src="jupiter.jpeg"
+          width="175"
+          height="200"
+        />
+      </div>
+      <div class="cell"></div>
+      <div class="cell">
+        <img
+          style="border-radius: 0.5rem"
+          src="nasa.jpeg"
+          width="175"
+          height="200"
+        />
+      </div>
+      <div class="cell"></div>
+      <div class="cell">1016 Barkwood Ct Safety Habor, Florida</div>
+      <!-- <div class="cell"></div> -->
     </div>
   </body>
 </html>

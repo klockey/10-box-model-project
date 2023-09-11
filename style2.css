@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("pexels-photo-4417069.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
 .paragraph-1 {
   text-transform: capitalize;
 }
@@ -27,4 +40,22 @@
 .post {
   margin: 2rem auto;
   border: 1px solid clear;
+}
+
+button {
+  margin: 2rem auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  position: fixed;
+  bottom: 2rem;
+}
+
+.a-link {
+  color: white;
+  /* text-decoration: none; */
 }
