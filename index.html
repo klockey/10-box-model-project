@@ -4,34 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lockey Blog</title>
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <!-- nav -->
-    <div class="nav">
-      <!-- <div class="nav-center"> -->
-      <header>
-        <p style="display: inline-block">Lockey Blog</p>
-      </header>
-      <!-- </div> -->
-    </div>
+    <nav class="nav">
+      <article>
+        <header>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+          <p class="displayTitle">Lockey Blog</p>
+        </header>
+      </article>
+    </nav>
     <div class="card">
       <div class="post">
         <a href="post-1.html" class="a-link">Post 1</a>
       </div>
+      <br />
       <div class="paragraph-1">
         <strong> ipsum </strong> dolor sit amet consectetur adipisicing elit.
         Error nostrum suscipit cum explicabo! At error laboriosam fugit quisquam
-        eos debitis aspernatur autem deleniti earum odio eius exercitationem
+        eos debitis <em>aspernatur </em> autem deleniti earum odio eius exercitationem
         dolorem ullam natus vitae aliquam modi reiciendis a, voluptas tempore
-        tenetur impedit! Dignissimos commodi, distinctio quibusdam harum facere
+        tenetur impedit! Dignissimos commodi, distinctio <u>quibusdam</u> harum facere
         quia debitis id veritatis inventore!
       </div>
+      <br />
+      <button type="button">Post 1</button>
     </div>
     <div class="card">
       <div class="post">
         <a href="post-2.html" class="a-link">Post 2</a>
       </div>
+      <br />
       <div class="paragraph-2">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum itaque
         est dolore, autem quae harum voluptas quod beatae asperiores ut, nemo
@@ -40,12 +49,15 @@
         repudiandae sequi facilis magnam rem, minima porro dignissimos facere
         accusantium commodi impedit.
       </div>
+      <br />
+      <button type="button">Post 2</button>
     </div>
     <div></div>
     <div class="card">
       <div class="post">
         <a href="post-3.html" class="a-link">Post 3</a>
       </div>
+      <br />
       <div class="paragraph-3">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum itaque
         est dolore, autem quae harum voluptas quod beatae asperiores ut, nemo
@@ -54,11 +66,23 @@
         repudiandae sequi facilis magnam rem, minima porro dignissimos facere
         accusantium commodi impedit.
       </div>
+      <br />
+      <button type="button">Post 3</button>
     </div>
+    <img
+      class="imgageBorderRadius"
+      src="./images/nasa.jpeg"
+      width="175"
+      height="200"
+    />
     <footer>
       <div class="container">
         <div>Keith Lockey</div>
         <div>1016 Barkwood Court. Safety Habor. Florida</div>
+        <div>
+        <div>Keith Lockey. Computer Scientist. Link Company. Working in Florida</div>
+        <not>Not social sharing</div>
+        </div>
       </div>
     </footer>
   </body>
