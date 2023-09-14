@@ -1,26 +1,17 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-
 body {
-  background-image: url("pexels-photo-4417069.jpeg");
+  background-image: url("./images/pexels-photo-4417069.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
 
-.paragraph-1 {
-  text-transform: capitalize;
+button {
+  margin: 2rem auto;
 }
 
-.paragraph-2 {
-  text-transform: uppercase;
-}
-
-.paragraph-3 {
-  text-transform: uppercase;
+img {
+  border-radius: 0.5rem;
 }
 
 .card-paragraph {
@@ -37,15 +28,6 @@ body {
   border: 1px solid white;
 }
 
-.post {
-  margin: 2rem auto;
-  border: 1px solid clear;
-}
-
-button {
-  margin: 2rem auto;
-}
-
 .container {
   display: flex;
   flex-direction: row;
@@ -57,5 +39,54 @@ button {
 
 .a-link {
   color: white;
-  /* text-decoration: none; */
+}
+
+.imageBorder {
+  border-radius: 10px/50%;
+  padding-left: 33rem;
+  padding-right: 33rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 250px 250px;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container-columns {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell {
+  resize: vertical;
+  padding: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+.paragraph-1 {
+  text-transform: capitalize;
+}
+
+.paragraph-2 {
+  text-transform: uppercase;
+}
+
+.paragraph-3 {
+  text-transform: uppercase;
+}
+
+.post {
+  margin: 2rem auto;
+  border: 1px solid clear;
 }

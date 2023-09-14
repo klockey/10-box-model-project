@@ -89,3 +89,88 @@ figcaption {
 .a-link {
   color: white;
 }
+
+button {
+  margin: 2rem auto;
+}
+
+img {
+  border-radius: 0.5rem;
+}
+
+.card-paragraph {
+  background: clear;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  max-width: 700px;
+  min-height: 700px;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem 2rem 2rem;
+  margin: 5rem auto;
+  border: 1px solid white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  position: fixed;
+  bottom: 2rem;
+}
+
+.a-link {
+  color: white;
+}
+
+.imageBorder {
+  border-radius: 10px/50%;
+  padding-left: 33rem;
+  padding-right: 33rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 250px 250px;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container-columns {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell {
+  resize: vertical;
+  padding: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+.paragraph-1 {
+  text-transform: capitalize;
+}
+
+.paragraph-2 {
+  text-transform: uppercase;
+}
+
+.paragraph-3 {
+  text-transform: uppercase;
+}
+
+.post {
+  margin: 2rem auto;
+  border: 1px solid clear;
+}
