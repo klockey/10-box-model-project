@@ -1,0 +1,26 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: 250px 250px;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container-columns {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell {
+  resize: vertical;
+  padding: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  border-radius: 0.5rem;
+}
